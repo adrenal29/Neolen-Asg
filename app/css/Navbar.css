@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom-left-radius:1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #444;
+  padding: 0.3rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+}
+
+.opt {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-left:40%;
+}
+
+.opt ul {
+  display: flex;
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.opt ul li {
+  margin-right: 1rem;
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.opt ul li span{
+  color: grey;
+}
+
+.language-selector {
+  margin-top: -10px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.language-selector select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.5rem;
+  padding-right: 2.5rem;
+  border-radius: 0.25rem;
+  color: #444;
+  cursor: pointer;
+  outline: none;
+}
+
+.language-selector:after {
+  content: '\f078';
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+}
+
+.language-selector select:focus + :after {
+  color: #0070f3;
+  outline: none;
+}
+
+.language-selector select option {
+  background-color: #fff;
+  color: #444;
+  outline: none;
+}
+
+.language-selector select option:checked {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+button{
+  height: 2rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid  black;
+}
