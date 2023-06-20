@@ -5,7 +5,7 @@ exports.id = 660;
 exports.ids = [660];
 exports.modules = {
 
-/***/ 2971:
+/***/ 7248:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -43,7 +43,7 @@ const _react = /*#__PURE__*/ _interop_require_wildcard(__webpack_require__(6689)
 const _constants = __webpack_require__(6724);
 const _getpagefiles = __webpack_require__(4140);
 const _htmlescape = __webpack_require__(9716);
-const _iserror = /*#__PURE__*/ _interop_require_default(__webpack_require__(274));
+const _iserror = /*#__PURE__*/ _interop_require_default(__webpack_require__(676));
 const _htmlcontext = __webpack_require__(8743);
 function _interop_require_default(obj) {
     return obj && obj.__esModule ? obj : {
@@ -656,7 +656,7 @@ class NextScript extends _react.default.Component {
                 return (0, _htmlescape.htmlEscapeJsonString)(data);
             }
             const bytes =  false ? 0 : Buffer.from(data).byteLength;
-            const prettyBytes = (__webpack_require__(6549)/* ["default"] */ .Z);
+            const prettyBytes = (__webpack_require__(5955)/* ["default"] */ .Z);
             if (largePageDataBytes && bytes > largePageDataBytes) {
                 if (true) {
                     largePageDataWarnings.add(__NEXT_DATA__.page);
@@ -757,7 +757,7 @@ Document[_constants.NEXT_BUILTIN_DOCUMENT] = InternalFunctionDocument; //# sourc
 
 /***/ }),
 
-/***/ 274:
+/***/ 676:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -795,7 +795,7 @@ function getProperError(err) {
 
 /***/ }),
 
-/***/ 6549:
+/***/ 5955:
 /***/ ((__unused_webpack_module, exports) => {
 
 var __webpack_unused_export__;
@@ -928,7 +928,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(2971));
+var __webpack_exports__ = (__webpack_exec__(7248));
 module.exports = __webpack_exports__;
 
 })();

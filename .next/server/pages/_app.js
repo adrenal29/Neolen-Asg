@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 5300:
+/***/ 1767:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -18,7 +18,7 @@ Object.defineProperty(exports, "default", ({
         return App;
     }
 }));
-const _interop_require_default = __webpack_require__(7083);
+const _interop_require_default = __webpack_require__(167);
 const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(6689));
 const _utils = __webpack_require__(9232);
 /**
@@ -68,7 +68,7 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 7083:
+/***/ 167:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -88,7 +88,7 @@ function _interop_require_default(obj) {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(5300));
+var __webpack_exports__ = (__webpack_exec__(1767));
 module.exports = __webpack_exports__;
 
 })();
