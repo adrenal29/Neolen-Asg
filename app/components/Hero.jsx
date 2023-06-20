@@ -5,8 +5,10 @@ const Hero = () => {
   return (
     <div className='heroSection'>
         <div className="content">
-            <div className="label1">Mental health at 30's</div>
-            <h1>Beat your <br /> anxiety with <br /> therapy</h1>
+            <div className="label1">
+              <h4>Mental health at 30's</h4>
+              </div>
+            <h1>Beat your anxiety with therapy</h1>
             <p>To live your life to the fullest we're <br/> continuing to find ways</p>
             <div className="btns">
               <button className='helpBtn'>Get Help <span>&gt;</span></button>

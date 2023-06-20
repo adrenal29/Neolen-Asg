@@ -21,9 +21,12 @@ const Navbar = () => {
               </select>
             </div>
           </li>
+          <li></li>
         </ul>
       </div>
-      <button>Need Help ?</button>
+      <div className="bt">
+        <button className="navBtn">Need Help ?</button>
+      </div>
     </div>
   );
 };
